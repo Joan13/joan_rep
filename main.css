@@ -1,0 +1,288 @@
+body
+{
+	margin: 0px;
+	font-size: 12px;
+	font-family: "Arial";
+	background-color: rgb(245, 245, 245);
+}
+a
+{
+	transition: 0.6s;
+	text-decoration: none;
+	color: inherit;
+}
+#div_main_login_register
+{
+	transition: 0.6s;
+	width: 50%;
+	height: 50%;
+	background-color: rgb(240, 240, 240);
+	margin-top: 10px;
+	margin-left: 25%;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+	border: 1px solid green;
+	border-radius: 1px;
+}
+#ttl
+{
+	transition: 0.6s;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+.in
+{
+	transition: 0.6s;
+	width: 350px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	border-radius: 3px;
+	border: 1px solid rgb(200, 200, 200);
+}
+.in:focus
+{
+	transition: 0.6s;
+	width: 350px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	border-radius: 1px;
+	border: 1px solid rgb(100, 100, 100);
+}
+#validate_login
+{
+	transition: 0.6s;
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+	border-radius: 3px;
+	padding: 5px 40px 7px 40px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+#go_to_register
+{
+	transition: 0.6s;
+	background-color: inherit;
+	color: green;
+	border: 1px solid rgb(220, 220, 220);
+	border-radius: 3px;
+	padding: 7px 40px 7px 40px;
+	margin-right: 15px;
+}
+#bottom_rights
+{
+	transition: 0.6s;
+	margin-top: 50px;
+	text-align: center;
+}
+.sp
+{
+	transition: 0.6s;
+	color: green;
+}
+#menus
+{
+	transition: 0.6s;
+	padding-top: 25px;
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	top: 45px;
+	background-color: rgb(230, 230, 230);
+}
+.menus_span
+{
+	transition: 0.6s;
+	transition: 0.6s;
+	display: block;
+	margin: 5px 0px 1px 20px;
+	color: black;
+}
+.menus_span:hover
+{
+	transition: 0.6s;
+	transition: 0.6s;
+	display: block;
+	margin: 5px 0px 1px 20px;
+	color: green;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#topbar
+{
+	transition: 0.6s;
+	position: fixed;
+	top: 0px;
+	line-height: 45px;
+	width: 100%;
+	background-color: green;
+}
+.strong_title
+{
+	transition: 0.6s;
+	font-size: 20px;
+	color: white;
+	margin-left: 25px;
+	margin-top: -50px;
+}
+#image_user
+{
+	transition: 0.6s;
+	float: right;
+	margin-left: 10px;
+}
+#user_div
+{
+	transition: 0.6s;
+	float: right;
+	margin-right: 200px;
+}
+#search_input
+{
+	transition: 0.6s;
+	transition: 0.6s;
+	width: 480px;
+	height: 25px;
+	padding-left: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	border-radius: 3px;
+	margin-right: 20px;
+	border: 1px solid rgb(200, 200, 200);
+}
+#user_name_home
+{
+	transition: 0.6s;
+	color: white;
+	font-weight: bold;
+}
+#main_middle
+{
+	transition: 0.6s;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: fixed;
+	width: 80%;
+	bottom: 0px;
+	top: 45px;
+	left: 20%;
+}
+.meet_up
+{
+	transition: 0.6s;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid green;
+	padding-bottom: 15px;
+}
+#create_answer, #meetupdate
+{
+	transition: 0.6s;
+	width: 480px;
+	height: 25px;
+	padding-left: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	border-radius: 3px;
+	margin-right: 20px;
+	border: 1px solid rgb(200, 200, 200);
+}
+.delete_meetup
+{
+	transition: 0.6s;
+	background-color: #780006;
+	color: white;
+	float: right;
+	border: 1px solid #780006;
+	border-radius: 3px;
+	padding: 5px 40px 7px 40px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.delete_meetup:hover
+{
+	transition: 0.6s;
+	background-color: red;
+	color: white;
+	float: right;
+	border: 1px solid #780006;
+	border-radius: 3px;
+	padding: 5px 40px 7px 40px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.edit_meetup
+{
+	transition: 0.6s;
+	background-color: green;
+	color: white;
+	float: right;
+	border: 1px solid green;
+	border-radius: 3px;
+	padding: 5px 40px 7px 40px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.edit_meetup:hover
+{
+	transition: 0.6s;
+	background-color: green;
+	color: white;
+	float: right;
+	border: 1px solid green;
+	border-radius: 3px;
+	padding: 5px 40px 7px 40px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+#confirm_create_meetup, #validate_answer, #like, #dislike
+{
+	transition: 0.6s;
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+	border-radius: 3px;
+	padding: 5px 40px 7px 40px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.like, .dislike, .comment
+{
+	transition: 0.6s;
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+	border-radius: 3px;
+	padding: 1px 7px 2px 7px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.questions_meetup
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+.date_question
+{
+	color: grey;
+}
+.question_by_question
+{
+	height: 60px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid rgb(200, 200, 200);
+}
+.menus_span
+{
+	font-weight: bold;
+	font-size: 14px;
+}
+
